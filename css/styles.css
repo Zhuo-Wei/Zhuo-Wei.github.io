@@ -10055,6 +10055,51 @@ ul {
     color: pink;
   }
 }
+.hoverImg {
+  position: relative;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.projImg {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5%;
+  transition: transform 0.2s;
+  box-shadow: 10px 10px 5px #04c7c7;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.4s ease;
+  background-color: #d1f8f8;
+  border-radius: 5%;
+  transition: transform 0.2s;
+}
+
+.hoverImg:hover .overlay {
+  opacity: 0.9;
+}
+
+.projText {
+  position: relative;
+  color: black;
+  font-size: 18px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
