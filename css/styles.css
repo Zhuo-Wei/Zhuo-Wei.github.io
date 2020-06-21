@@ -10062,6 +10062,12 @@ ul {
   margin-right: 5%;
 }
 
+#mobile {
+  width: 46%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
 .projImg {
   display: block;
   width: 100%;
